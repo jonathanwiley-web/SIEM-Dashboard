@@ -1,22 +1,25 @@
-<h1>SIEM DashBoard</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>SentinelLite SIEM Dashboard</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+SentinelLite is a lightweight Security Information and Event Management (SIEM) dashboard designed for small IT teams. 
+The project ingests and visualizes log data from multiple sources, helping users monitor security events, detect anomalies, 
+and respond to incidents efficiently. It features real-time alerts, filtering, and customizable dashboards for quick insights.
 <br />
-
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Python</b> 
-- <b>Diskpart</b>
+- <b>Python</b> (Flask backend for log ingestion and processing)
+- <b>JavaScript / HTML / CSS</b> (Dashboard frontend)
+- <b>SQLite</b> (Lightweight database for storing logs)
+- <b>Plotly / Dash</b> (Data visualization)
+- <b>Pandas</b> (Data analysis)
 
-<h2>Environments Used </h2>
+<h2>Environments Used</h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10 / 11</b> (for development and testing)
+- <b>Python 3.11+</b>
 
-<h2>Program walk-through:</h2>
+<h2>Program Walk-through:</h2>
 
 <p align="center">
 Launch the utility: <br/>
